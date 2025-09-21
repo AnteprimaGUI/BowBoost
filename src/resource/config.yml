@@ -1,0 +1,35 @@
+# BowBoost Configuration - Knockback settings for arrows with Punch enchantment
+
+  # Horizontal movement multiplier
+  # Recommended values: between 0.8 and 1.2
+  # 1.0 = normal Minecraft knockback
+  # Lower values = less horizontal knockback
+  # Higher values = more horizontal knockback
+  # One of the best configurations: 0.94
+
+  
+  # Vertical movement multiplier
+  # Recommended values: between 0.3 and 0.8
+  # 1.0 = normal Minecraft knockback
+  # Lower values = less vertical knockback (more realistic)
+  # Higher values = more vertical knockback (more bouncy)
+  # One of the best configurations: 0.45
+
+  # Multiplier when hit in a cobweb
+  # Recommended values: between 0.5 and 2.0
+  # 1.0 = normal knockback in cobwebs
+  # Lower values = reduced knockback in cobwebs
+  # Higher values = increased knockback in cobwebs
+  # One of the best configurations: 1.0
+
+# BowBoost preset
+#boost:
+#  horizontal: 0.94
+#  vertical: 0.45
+#  web: 0.6
+
+# BowBoost Configuration
+boost:
+  horizontal: 1.0
+  vertical: 1.0
+  web: 1.0

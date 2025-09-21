@@ -1,0 +1,4 @@
+# BowBoost Messages
+no-permission: "&cYou don't have permission to use this command."
+invalid-command: "&cUsage: /bowboost reload"
+reload-success: "&aConfiguration reloaded successfully!"

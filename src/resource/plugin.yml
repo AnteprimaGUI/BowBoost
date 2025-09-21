@@ -1,0 +1,12 @@
+name: BowBoost
+version: 1.0.0
+main: TòAnteprima.BowBoost.BowBoost
+api-version: 1.13
+commands:
+  bowboost:
+    description: Reload BowBoost configuration
+    usage: /bowboost reload
+permissions:
+  bowboost.command:
+    description: Allows using the bowboost command
+    default: op
