@@ -37,12 +37,13 @@ Permission: bowboost.command
 
 📦 Installation
 Drop the jar into your plugins/ folder.
-
 Start the server to generate configs.
-
 Edit config.yml and messages.yml as you like.
-
 Run /bowboost reload to apply changes instantly.
+
+⚠️ Important
+KB THROUGH THE COBWEBS FOR THE ARROWS TO MAKE THEM SMOOTH DURING THE BOW BOOST OVER THE COBWEBS
+“editable” – this allows you to block the block that is there when you try to bowboost over them.
 
 ⚙️ Anti-Rubberband Configuration (Spigot/Paper 1.8.8)
 Tweak these server configs to reduce rubberbanding, rollbacks, and flying kicks when using custom boosts.
@@ -52,7 +53,7 @@ spigot.yml
 yml
 Copy code
 settings:
-  moved-wrongly-threshold: 0.5     # default 0.0625 is too strict for custom boosts
+  moved-wrongly-threshold: 0.5        # default 0.0625 is too strict for custom boosts
   moved-too-quickly-threshold: 2000.0 # raise a lot: prevents rubberband on high speeds
 paper.yml / paper-spigot.yml (if you use PaperSpigot)
 
