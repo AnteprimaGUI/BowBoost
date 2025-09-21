@@ -15,46 +15,31 @@ Shoot an arrow at yourself with a **Punch bow** to get an instant, smooth boost 
 
 ---
 
-## ⚙️ Plugin Configuration
+## 🕹 Commands & Permissions
+- **Command:** `/bowboost reload`  
+- **Permission:** `bowboost.command`
 
-**`config.yml`**
-```yml
-boost:
-  horizontal: 1.2  # Base horizontal strength (scaled by Punch level, min 1.0)
-  vertical: 0.42   # Upward force applied on boost
-  web: 0.8         # Horizontal multiplier when inside cobwebs
-messages.yml
+---
 
-yml
-Copy code
-no-permission: "&cYou don't have permission."
-invalid-command: "&eUsage: /bowboost reload"
-reload-success: "&aBowBoost configuration reloaded."
-🕹 Commands & Permissions
-Command: /bowboost reload
+## 📦 Installation
+1. Drop the jar into your `plugins/` folder.  
+2. Start the server to generate configs.  
+3. Edit `config.yml` and `messages.yml` as you like.  
+4. Run `/bowboost reload` to apply changes instantly.  
 
-Permission: bowboost.command
+---
 
-📦 Installation
-Drop the jar into your plugins/ folder.
-
-Start the server to generate configs.
-
-Edit config.yml and messages.yml as you like.
-
-Run /bowboost reload to apply changes instantly.
-
-⚠️ Important Notes
-KB THROUGH THE COBWEBS FOR THE ARROWS TO MAKE THEM SMOOTH DURING THE BOW BOOST OVER THE COBWEBS
+## ⚠️ Important Notes
+**KB THROUGH THE COBWEBS FOR THE ARROWS TO MAKE THEM SMOOTH DURING THE BOW BOOST OVER THE COBWEBS**  
 “editable” – this allows you to block the block that is there when you try to bowboost over them.
 
-⚙️ Anti-Rubberband Server Configuration
-These settings are not part of the plugin, but must be applied to your server to reduce rubberbanding, rollbacks, and false fly kicks.
+---
 
-spigot.yml
+## ⚙️ Anti-Rubberband Server Configuration
+These settings are **not part of the plugin**, but must be applied to your server to reduce rubberbanding, rollbacks, and false fly kicks.
 
-yml
-Copy code
+**`spigot.yml`**
+```yml
 settings:
   moved-wrongly-threshold: 0.5         # default 0.0625 is too strict for custom boosts
   moved-too-quickly-threshold: 2000.0  # raise a lot: prevents rubberband on high speeds
