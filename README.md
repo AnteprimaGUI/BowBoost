@@ -33,10 +33,6 @@ Shoot an arrow at yourself with a **Punch bow** to get an instant, smooth boost 
 **KB THROUGH THE COBWEBS FOR THE ARROWS TO MAKE THEM SMOOTH DURING THE BOW BOOST OVER THE COBWEBS**  
 “editable” – this allows you to block the block that is there when you try to bowboost over them.
 
----
-
-## ⚙️ Anti-Rubberband Server Configuration
-These settings are **not part of the plugin**, but must be applied to your server to reduce rubberbanding, rollbacks, and false fly kicks.
 
 **`spigot.yml`**
 ```yml
